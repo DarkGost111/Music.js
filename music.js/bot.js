@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1play";
+const prefix = "$play";
 /////////////////////////
 ////////////////////////
 
@@ -344,12 +344,12 @@ client.on('message', message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Music Bot- Script By : Towx Community`);
+      console.log(`Music Bot- Script By : Everist Life`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : Towx Community' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : Everist Life' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Toxic Codes Team`,"http://twitch.tv/Toxic Codes")
+client.user.setGame(`Toxic Codes Team`,"http://twitch.tv/darkghostproo")
 client.user.setStatus("dnd")
 });
 
